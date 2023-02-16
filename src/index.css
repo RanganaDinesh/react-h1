@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background-image:linear-gradient(rgb(149, 223, 234),rgb(234, 229, 229),rgb(235, 133, 232),rgb(234, 229, 229));
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100dvh;
+}
+.App {
+  text-align: center;
+}
+
+.heading {
+  text-shadow: 3px 3px 3px rgb(107, 108, 108);
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.btn--func {
+  background-color: rgb(197, 220, 240);
+  margin-right: 30px;
+}
+.btn--func:hover {
+  opacity: 2;
+  background-color: rgb(145, 238, 238);
+ 
+}
+
+
+.btn--cls {
+  background-color: aqua;
+  margin-left: 30px;
+}
+.btn--cls:hover {
+  background-color: rgb(228, 160, 240);
+ 
+}
+
+.component-box {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: auto;
+  margin-top: 30px;
+}
+
+.functional-component,
+.class-component {
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  /* visibility: hidden; */
+}
+
+.functional-component {
+  background-color: aqua;
+}
+
+.class-component {
+  background-color: rgb(194, 111, 194);
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+}
